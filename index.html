@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>East-less-sea Designs</title>
+  <!-- Google Fonts and Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://js.stripe.com/v3/"></script>
+</head>
+
+<body>
+  <section id=title>
+    <div class="container-fluid">
+      <div class="topContainer">
+        <picture>
+          <source srcset="images/Sun500x500.png" media="(min-width: 1200px)">
+          <source srcset="images/Sun350x350.png" media="(min-width: 900px)">
+          <source srcset="images/Sun200x200.png" media="(min-width: 600px)">
+          <img class="img-fluid" srcset="images/Sun200x200.png" alt="bright sun">
+        </picture>
+      </div>
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <picture>
+            <source srcset="images/ELSD_compass_white_sm.png" media="(max-width: 600px)">
+            <img src="images/ELSD_compass_white.png" alt="East-less-sea Designs logo" class="logo">
+            East-Less-Sea Designs
+          </picture>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active dropdown">
+              <a class="nav-link" href="work.html">Work<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+    </div>
+
+    <!-- Scroll button -->
+
+    <input type="image" src="images/Crab.png" width="150px" height="150px" onclick="topFunction()" id="myBtn" title="Go to top"></input>
+
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+
+  </section>
+
+  <!-- Who I am and beach -->
+  <section id=whoIAm>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <figure class=transition>
+            <img src="images/I'mJenda2c9e.png" alt=" Hot pink I'm Jen">
+          </figure>
+        </div>
+        <div class="col-md-12">
+          <figure class=transition>
+            <h4>A <span><u>pro</u></span>grammer</h4>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <picture>
+        <source srcset="images/beachScene2.png" media="(min-width: 1000px)">
+        <source srcset="images/beachScene2md.png" media="(min-width: 800px)">
+        <source srcset="images/beachScene2sm.png" media="(min-width: 600px)">
+        <img src="images/beachScene2sm.png" class="beach" alt="Beach sand with chairs and umbrella">
+      </picture>
+    </div>
+  </section>
+
+  <!-- Intro of me -->
+  <section id="hi">
+    <div class="container-fluid whiteBackground">
+      <div class="container whiteVerbiageHi">
+        <h1>Hi.</h1>
+        <p>I'm based in Charlotte, NC. I began web designing for my job and became hooked. I am also the CEO of a non-profit that helps raise money for the people of India.</p>
+      </div>
+    </div>
+    <div class="breaker">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-dots">
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What I can do -->
+  <section id="whatICanDo">
+    <div class="container-fluid whiteBackground">
+      <div class="container whiteVerbiageCanDo">
+        <h1>What I can do.</h1>
+        <p>Let me help you design a website for your needs.</p>
+      </div>
+    </div>
+    <div class="breaker">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-dots">
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- I can help -->
+  <section id=iCanHelp>
+    <div class="container-fluid whiteBackground">
+      <div class="container whiteVerbiageICanHelp">
+        <h1>I can help.</h1>
+        <p>Let's get together, code and eat curry.</p>
+        <button class="btn">
+          <a href="mailto:Jen@eastlessseadesigns.com">
+            Email me!</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Social Media -->
+  <section id=socialMedia>
+    <div class="row">
+
+      <div class="col social-media">
+        <a href="https://www.linkedin.com/company/bridge-to-faith/" target="_blank"><i class="social fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/BTFIndia.org/" target="_blank"><i class="social fab fa-facebook-f"></i></a>
+        <a href="mailto:Jen@eastlessseadesigns.com"><i class="social far fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section id=footer>
+    </div>
+    <div class="navbar fixed-bottom">
+      <div class="footer">
+        <p>© Copyright 2020</p>
+      </div>
+      <div class="footer">
+        <p>Made with ❤️ by East-less-sea Designs</p>
+      </div>
+    </div>
+  </section>
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

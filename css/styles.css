@@ -1,0 +1,280 @@
+body {
+  background-color: #2cdabf;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#whoIAm h4 {
+  color: white;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.slide {
+  width: 940px;
+}
+
+.container {
+  max-width: 970px;
+  text-align: center;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* navbar */
+.container-fluid {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar {
+  padding: 5px 80px 5px 40px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  margin-right: 60px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.navbar-brand {
+  padding-left: 3px;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar a {
+    font-size: 20px;
+  }
+}
+
+.nav-link:hover {
+  border: 2px;
+  text-shadow: 0 4px 8px 0 #000000;
+}
+
+/* sun and beach */
+.img-fluid {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+#whoIAm h1 {
+  font-size: 550%;
+  color: white;
+  font-family: 'Sacramento', cursive;
+}
+
+#whoIAm h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Intro of me */
+.whiteBackground {
+  background-color: #f4f4f5;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  margin-top: -30px;
+  color: #da2c9e;
+}
+
+.whiteVerbiageHi {
+  max-width: 600px;
+  text-align: center;
+  s
+}
+
+.whiteVerbiageHi p {
+  color: black;
+}
+
+hr {
+  border-top-style: dotted;
+  border-width: 6Px 0 0;
+  border-color: #da2c9e;
+  margin-top: 30px;
+  width: 5%;
+  margin-top: 0;
+}
+
+/* <!-- What I can do --> */
+.whiteVerbiageCanDo h1 {
+  color: #2c47da;
+}
+
+.whiteVerbiageCanDo p {
+  color: black;
+}
+
+/* I can help */
+.whiteVerbiageICanHelp p {
+  color: black;
+}
+
+.whiteVerbiageICanHelp h1 {
+  color: #da2c9e;
+}
+
+.btn {
+  background-color: #da2c9e;
+  border-radius: 5%;
+  color: white;
+}
+
+a:link, a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  border: 1px;
+  background-color: #c71585;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* <!-- Scroll button --> */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  transform: rotate(-20deg);
+}
+
+/* BtF Wesbite */
+#BtF_Website {
+  background-color: #2c9eda;
+  text-align: center;
+}
+
+/* ERI Website */
+#ERI_Website {
+  background-color: #2c47da;
+  text-align: center;
+}
+
+/* contact me - social media*/
+#socialMedia {
+  color: white;
+  padding: 1% 15%;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  margin: 0 0 50px 0;
+}
+
+.social {
+  margin: 15px 10px;
+}
+
+i.social {
+  color: white;
+}
+
+.social:hover {
+  border: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* footer */
+.footer {
+  padding-top: 5px;
+  width: 100%;
+  height: 30px;
+  font-size: 10px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -10px;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.footer p {
+  text-align: center;
+}
+
+.fixed-bottom {
+  padding: 0;
+}
+
+
+
+/* About Page */
+
+/* Jen Pic */
+.jenPic {
+  border-radius: 5px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2)
+}
+
+.whiteVerbiageAboutMe h1 {
+  color: hotpink;
+}
+
+.whiteVerbiageAboutMe p {
+  color: white;
+}
+
+.whiteVerbiageAboutMe h4 {
+  color: white;
+}
+
+
+/* Work page */
+
+.whiteWork p {
+  color: black;
+}
+
+.dkBlueBTFWebsite {
+  color: white;
+  max-width: 600px;
+    text-align: center;
+}
+
+.dkBlueBackground{
+  padding: 60px 0;
+}
+
+.blueERIWebsite {
+  color: white;
+  max-width: 600px;
+    text-align: center;
+}
+
+.blueBackground{
+  padding: 60px 0;
+}
+
+.workLogos {
+  border-radius: 5px;
+}
+
+.work_btn {
+  margin-top: 20px;
+}
